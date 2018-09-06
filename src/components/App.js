@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 
 // Internal imports
-import './App.css';
+import '../styles/App.css';
 
 class App extends Component {
   render() {
