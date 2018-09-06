@@ -1,10 +1,7 @@
-// External imports
-import React, { Component } from 'react';
-
-// Internal imports
+import React from 'react';
 import '../styles/App.css';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="app">
