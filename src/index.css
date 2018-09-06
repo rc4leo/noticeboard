@@ -6,7 +6,8 @@ body {
   font-family: 'Rubik', sans-serif;
   font-size: 1em;
   font-weight: 400;
-  color: black;
+  color: white;
+  background: #B71C1C;
 
   margin: 0 auto;
   padding: 20px;
