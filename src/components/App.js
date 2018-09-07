@@ -1,8 +1,11 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-flexbox-grid';
-import '../styles/App.css';
+import { Grid, Row } from 'react-flexbox-grid';
 
+import '../styles/App.css';
+import Announcements from './Announcements';
+import Calendar from'./Calendar';
 import Header from './Header';
+import Posters from './Posters';
 
 class App extends React.Component {
   render() {
@@ -12,19 +15,13 @@ class App extends React.Component {
 
         <Grid fluid>
           <Row>
-            <Col xs={12} md={9}>
-              calendar
-            </Col>
+            <Calendar />
 
-            <Col xs={12} md={3}>
-              announcements
-            </Col>
+            <Announcements />
           </Row>
 
           <Row>
-            <Col xs={12}>
-              posters
-            </Col>
+            <Posters />
           </Row>
         </Grid>
       </div>
